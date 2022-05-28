@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #dee2e6;
   background: #fff;
 }
 
@@ -166,19 +166,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: tomato;
+    color: rgb(255, 99, 71);
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 10px;
-  color: #000;
+  background: rgb(255, 99, 71);
+  color:white;
+
   font-size: 14px;
   font-weight: 600;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: rgb(0, 0, 0);
-  background: #f2f5f6;
+  background-color: rgb(223, 86, 62);;
+  color:white;
 }
 .navbar .dropdown ul {
   display: block;
@@ -365,8 +367,8 @@ h1, h2, h3, h4, h5, h6 {
   background: tomato;
 }
 #hero .btn-get-started:hover {
-  background: #f2f5f6;
-  color:#000;
+  background-color: rgb(223, 86, 62);
+  color:white;
 }
 #hero .btn-watch-video {
   font-size: 16px;
